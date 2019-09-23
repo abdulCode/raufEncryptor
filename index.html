@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MY ENCRYPTOR</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+
+<div>
+	<div>
+		<h1>ENCODE!!!</h1>
+		<button class="btn btn-primary btn-default " id = "encode" type = "submit">Encode</button>
+		<br><h3>Enter your encoding number below</h3>
+			<input type="text" name="" id="encoding" placeholder="Enter your secret number/key to encode with here">
+				<br>
+				<h3>Enter your message below</h3>
+					<textarea rows="4" cols="50" id="inputText"  placeholder="Enter your Message here"></textarea>			
+			<h2>Output</h2>
+			<h3 rows="4" cols="50" id="outputTextEncoded"></h3>		
+			<hr><hr>
+	</div>
+	<div><h1>DECODE!!!</h1>
+			<button class="btn btn-primary btn-default " id = "decode" type = "submit">Decode</button>
+			<br><h3>Enter your encoding number below</h3>
+				<input type="text" name="" id="decoding" placeholder="Decoding key here"><br>
+				<h3>Enter your Encoded message below</h3>
+				<textarea rows="4" cols="50" id="inputTextDecoding" placeholder="Enter your Encoded Message here"></textarea>
+		
+				<h2>Output</h2>
+					<h3 rows="4" cols="50" id="outputTextDecoded"></h3>
+	</div>
+</div>
+</body>
+</html>
